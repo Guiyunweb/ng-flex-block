@@ -4,11 +4,12 @@ import { LayoutComponent } from './layout/layout.component';
 import { NavComponent } from './layout/nav/nav.component';
 import { HeaderComponent } from './layout/header/header.component';
 import {AppRoutingModule} from '../routes/app-routing.module';
+import { FooterComponent } from './layout/footer/footer.component';
 
 
 
 @NgModule({
-  declarations: [LayoutComponent, NavComponent, HeaderComponent],
+  declarations: [LayoutComponent, NavComponent, HeaderComponent, FooterComponent],
     imports: [
         CommonModule,
         AppRoutingModule
