@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "ng-flex-block"
+  "defaultProject": "ng-flex-block",
+  "cli": {
+    "analytics": "77fbf7fe-a8f7-4ba2-9112-c3a54c5a28e6"
+  }
 }
